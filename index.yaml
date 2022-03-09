@@ -1,9 +1,39 @@
 apiVersion: v1
 entries:
+  digits-test:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-03-09T14:57:55.7853889+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 41277545c609e23d4665229e541919e105a5ed9706ffe171bde505e3e2205f4c
+    name: digits-test
+    urls:
+    - https://doris-hsu.github.io/helmpackage/digits-test-0.1.0.tgz
+    version: 0.1.0
+  dryrun-failed:
+  - apiVersion: v1
+    appVersion: 5.0.0
+    created: "2022-03-09T14:57:55.7869735+08:00"
+    description: NVIDIA's Deepstream Helm Chart
+    digest: 6f610c17dff0d9daec7d5cbed77896c535e602c08ed3949f708e9b19b30ced4b
+    name: dryrun-failed
+    urls:
+    - https://doris-hsu.github.io/helmpackage/dryrun-failed-5.0.1.tgz
+    version: 5.0.1
+  egx-sample:
+  - apiVersion: v1
+    appVersion: 2.0.0
+    created: "2022-03-09T14:57:55.7881002+08:00"
+    description: egxqatest sample Helm Chart
+    digest: 53ed78ba2328731a95dd179de3bebdf775a08a000cbe99ea29f604206666a422
+    name: egx-sample
+    urls:
+    - https://doris-hsu.github.io/helmpackage/egx-sample-1.1.0.tgz
+    version: 1.1.0
   myco-hello-1:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-02-24T23:38:59.1860607+08:00"
+    created: "2022-03-09T14:57:55.7892537+08:00"
     description: MyCo's Hello World 1 sample Helm Chart
     digest: 6349eaf6f614d75994960e7abea7d89d651b138b43ec89e779f028a399814298
     name: myco-hello-1
@@ -13,11 +43,41 @@ entries:
   sample-no-nodeselector:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-02-24T23:38:59.1871311+08:00"
+    created: "2022-03-09T14:57:55.7925075+08:00"
     description: MyCo's Hello World 1 sample Helm Chart
     digest: 63172acb1e5a439dac6bc3fe7bb21c047f0ebf2e3563b2672bd25a9eb9a113f7
     name: sample-no-nodeselector
     urls:
     - https://doris-hsu.github.io/helmpackage/sample-no-nodeselector-3.0.1.tgz
     version: 3.0.1
-generated: "2022-02-24T23:38:59.1850003+08:00"
+  samplechart:
+  - apiVersion: v1
+    appVersion: 2.0.0
+    created: "2022-03-09T14:57:55.7936958+08:00"
+    description: sample Helm Chart
+    digest: 6833cb7c901bef556ed48dc8a4ededbdbcbdb18ad130b52ccb45709a28bdd64a
+    name: samplechart
+    urls:
+    - https://doris-hsu.github.io/helmpackage/samplechart-1.1.0.tgz
+    version: 1.1.0
+  t1-sample:
+  - apiVersion: v1
+    appVersion: 2.0.0
+    created: "2022-03-09T14:57:55.7952565+08:00"
+    description: egxqatest team sample Helm Chart
+    digest: c19dbf948e8c61be47afa6a6d944c27dcc7938f91fee695e2e30e39683d2efd5
+    name: t1-sample
+    urls:
+    - https://doris-hsu.github.io/helmpackage/t1-sample-1.1.0.tgz
+    version: 1.1.0
+  zaukumikdsmr:
+  - apiVersion: v1
+    appVersion: 2.0.0
+    created: "2022-03-09T14:57:55.7970898+08:00"
+    description: zaukumikdsmr no-selector sample Helm Chart
+    digest: 1216c3cc4b0780377330bacf6f3fdb7d35ea99b9588a05f125da762e4ff8c0cd
+    name: zaukumikdsmr
+    urls:
+    - https://doris-hsu.github.io/helmpackage/zaukumikdsmr-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-03-09T14:57:55.7843235+08:00"
