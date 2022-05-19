@@ -3,7 +3,7 @@ entries:
   aws-nginx:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-15T14:08:54.807342+08:00"
+    created: "2022-05-19T23:36:33.3853549+08:00"
     description: A Helm chart for Kubernetes
     digest: 69fb3d1d71dd813dec3a66062fe2ba3c2189882d1798d3e84f89243672d29599
     name: aws-nginx
@@ -13,7 +13,7 @@ entries:
   caffe-nodeselector:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-15T14:08:54.8078661+08:00"
+    created: "2022-05-19T23:36:33.3869437+08:00"
     description: caffe with nodeSelector hostname
     digest: a6347f2a14f8f0c564070e8796ee68cf8538cc562c0724b275218d4f9c0b116e
     name: caffe-nodeselector
@@ -23,7 +23,7 @@ entries:
   cal-locked-pytorch:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-15T14:08:54.8102577+08:00"
+    created: "2022-05-19T23:36:33.3882196+08:00"
     description: A Helm chart to produce non-stopping gpu workload
     digest: 0d4f01e4a65614d6c4c4e0bb6e8e3be2cdf894816059a0bdf4dd75262b2cd792
     name: cal-locked-pytorch
@@ -33,7 +33,7 @@ entries:
   depfile:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-03-15T14:08:54.8125087+08:00"
+    created: "2022-05-19T23:36:33.3914305+08:00"
     dependencies:
     - name: pk1
       repository: file://../ct/pk1
@@ -53,7 +53,7 @@ entries:
   deprepo:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2022-03-15T14:08:54.8151518+08:00"
+    created: "2022-05-19T23:36:33.3958988+08:00"
     dependencies:
     - name: pk1
       repository: https://doris-hsu.github.io/helmpackage
@@ -73,7 +73,7 @@ entries:
   digits-test:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-03-15T14:08:54.81622+08:00"
+    created: "2022-05-19T23:36:33.3976382+08:00"
     description: A Helm chart for Kubernetes
     digest: 41277545c609e23d4665229e541919e105a5ed9706ffe171bde505e3e2205f4c
     name: digits-test
@@ -83,7 +83,7 @@ entries:
   dryrun-failed:
   - apiVersion: v1
     appVersion: 5.0.0
-    created: "2022-03-15T14:08:54.8184465+08:00"
+    created: "2022-05-19T23:36:33.4011202+08:00"
     description: NVIDIA's Deepstream Helm Chart
     digest: 6f610c17dff0d9daec7d5cbed77896c535e602c08ed3949f708e9b19b30ced4b
     name: dryrun-failed
@@ -93,17 +93,49 @@ entries:
   egxqatest-centos:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-03-15T14:08:54.820033+08:00"
+    created: "2022-05-19T23:36:33.4032097+08:00"
     description: egxqatest org sample Helm Chart
     digest: 6113830f54cdc84c936fde211c24569e77fce6961e841976c00818e8562ecc5d
     name: egxqatest-centos
     urls:
     - https://doris-hsu.github.io/helmpackage/egxqatest-centos-1.1.1.tgz
     version: 1.1.1
+  fail-manytimes:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-05-19T23:36:33.4058164+08:00"
+    description: A Helm chart for Kubernetes
+    digest: edf4e7cb5d64ea6adad4cd9f600542acd2351315c39a4e0baff4a21703a275dc
+    name: fail-manytimes
+    type: application
+    urls:
+    - https://doris-hsu.github.io/helmpackage/fail-manytimes-0.0.1.tgz
+    version: 0.0.1
+  gpu-hog:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-05-19T23:36:33.4068419+08:00"
+    description: A Helm chart to produce non-stopping pytorch workloads that saturate
+      GPUs
+    digest: 54821017c23f32311ee31d1b69a9c2b245ecab333c891ff482d0bb7c8e3448d4
+    name: gpu-hog
+    urls:
+    - https://doris-hsu.github.io/helmpackage/gpu-hog-0.3.0.tgz
+    version: 0.3.0
+  long-init-time:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-05-19T23:36:33.4083733+08:00"
+    description: A Helm chart for long init time
+    digest: e4ec8953d5fb565e0c441a4dc680159ec629dc54551078701ceba8248fe051ee
+    name: long-init-time
+    urls:
+    - https://doris-hsu.github.io/helmpackage/long-init-time-0.0.1.tgz
+    version: 0.0.1
   memory-over:
   - apiVersion: v1
     appVersion: 0.1.0
-    created: "2022-03-15T14:08:54.8219242+08:00"
+    created: "2022-05-19T23:36:33.4083733+08:00"
     description: A Helm chart for memory oomkilled test
     digest: 8bbe029ff49127aa92480189bab6cab9d51c2555a340cfac383eb4bb5e895e46
     name: memory-over
@@ -114,7 +146,7 @@ entries:
   myco-hello-1:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-03-15T14:08:54.8234987+08:00"
+    created: "2022-05-19T23:36:33.4114092+08:00"
     description: MyCo's Hello World 1 sample Helm Chart
     digest: 6349eaf6f614d75994960e7abea7d89d651b138b43ec89e779f028a399814298
     name: myco-hello-1
@@ -124,7 +156,7 @@ entries:
   no-gpu:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-03-15T14:08:54.8245448+08:00"
+    created: "2022-05-19T23:36:33.4114092+08:00"
     description: no-gpu sample Helm Chart
     digest: b11812533008ca091239a385a810f68b14ca2e01dd09a0f78a1b0785c0ff4bd2
     name: no-gpu
@@ -134,7 +166,7 @@ entries:
   pk1:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-03-15T14:08:54.8255846+08:00"
+    created: "2022-05-19T23:36:33.4114092+08:00"
     description: pk1 sample Helm Chart
     digest: 2e607331a4dac0e03a2fbf000dcc60e79c091c577f4acca7cf524de6b03650a7
     name: pk1
@@ -144,7 +176,7 @@ entries:
   pk2:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-03-15T14:08:54.8266238+08:00"
+    created: "2022-05-19T23:36:33.4169995+08:00"
     description: pk2 sample Helm Chart
     digest: 48b353631fa6d41a17557b7768fc4ead264fc4481a2363cd38b5d2a70be79136
     name: pk2
@@ -154,7 +186,7 @@ entries:
   pk3:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-03-15T14:08:54.8276659+08:00"
+    created: "2022-05-19T23:36:33.4169995+08:00"
     description: pk3 sample Helm Chart
     digest: a0184abc6da58921a94f9cabc3a84c3af388efbc130f4b0ea9619131402355a1
     name: pk3
@@ -164,7 +196,7 @@ entries:
   qatest:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-15T14:08:54.8286925+08:00"
+    created: "2022-05-19T23:36:33.4315119+08:00"
     description: A Helm chart for Kubernetes
     digest: 1c764429c12930554ca3f3c90a714af1512b5cec99169d81270f0b8833e23b63
     name: qatest
@@ -175,7 +207,7 @@ entries:
   sample-gpu:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-03-15T14:08:54.8302065+08:00"
+    created: "2022-05-19T23:36:33.4340709+08:00"
     description: sample Helm Chart with gpu
     digest: 2d7ce07f775f7bdce184b2f99223c5a9f9ab3ad8524ca52cebf09ff5c919fc2c
     name: sample-gpu
@@ -185,7 +217,7 @@ entries:
   sample-no-nodeselector:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-03-15T14:08:54.831206+08:00"
+    created: "2022-05-19T23:36:33.4357595+08:00"
     description: MyCo's Hello World 1 sample Helm Chart
     digest: 63172acb1e5a439dac6bc3fe7bb21c047f0ebf2e3563b2672bd25a9eb9a113f7
     name: sample-no-nodeselector
@@ -195,11 +227,21 @@ entries:
   test-t3:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-03-15T14:08:54.8322062+08:00"
+    created: "2022-05-19T23:36:33.4375386+08:00"
     description: MyCo's Hello World 1 sample Helm Chart
     digest: 5e833d87c06248537ddc5a824642e5a9b8c088f5e6e57a1933f8a9b124370dd2
     name: test-t3
     urls:
     - https://doris-hsu.github.io/helmpackage/test-t3-2.0.1.tgz
     version: 2.0.1
-generated: "2022-03-15T14:08:54.8057312+08:00"
+  video-analytics-demo:
+  - apiVersion: v1
+    appVersion: "1.2"
+    created: "2022-05-19T23:36:33.4403285+08:00"
+    description: A Helm chart for Deepstream Intelligent Video Analytics
+    digest: 016f68a747c733268d0c4422a2fff8103b64b4100e3adff41a496cdce1ee670d
+    name: video-analytics-demo
+    urls:
+    - https://doris-hsu.github.io/helmpackage/video-analytics-demo-0.1.7.tgz
+    version: 0.1.7
+generated: "2022-05-19T23:36:33.3837904+08:00"
